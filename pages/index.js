@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid"
-import { useEffect, useMemo } from "react"
+import { useEffect } from "react"
 
 const uniqueIds = []
 export default function Home() {
@@ -9,7 +9,10 @@ export default function Home() {
     { name: "Project management ui", link: "/components/ProjectItems" },
     { name: "Movies list", link: "/components/MoviesList" },
     { name: "Audio Player UI", link: "/components/MusicPlayer" },
-    { name: "Tailwind UI - workflow", link: "/components/tailwindUI/WorkflowPage" },
+    {
+      name: "Tailwind UI - workflow",
+      link: "/components/tailwindUI/WorkflowPage",
+    },
   ]
 
   useEffect(() => {
@@ -22,7 +25,9 @@ export default function Home() {
   return (
     <div className="tw-min-h-screen tw-m-0">
       <h1 className="tw-max-w-lg tw-my-4 tw-capitalize tw-text-purple-600 tw-font-semibold tw-mx-auto tw-p-2 tw-rounded tw-shadow-purple-100 tw-shadow-sm">
-        👇 below are individual links of all the components in this project
+        👇 below are individual links of all the components in this project, I
+        have created created replica of designs which I liked on internet and
+        coded them.
       </h1>
       <section className="tw-shadow tw-shadow-purple-200 tw-mx-2 tw-rounded tw-py-4 tw-px-2">
         <ol>
