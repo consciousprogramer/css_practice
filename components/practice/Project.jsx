@@ -100,6 +100,9 @@ function Project() {
           <p className="tw-font-semibold">New project</p>
         </div>
       </div>
+      <p className="tw-text-center tw-capitalize tw-bg-slate-500 tw-text-white tw-font-semibold tw-py-2 tw-mt-4 tw-rounded-md">
+        this design is fully responsive so try resizing the window
+      </p>
     </section>
   )
 }

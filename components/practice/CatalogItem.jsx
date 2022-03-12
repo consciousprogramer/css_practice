@@ -4,7 +4,7 @@ function CatalogItem() {
   const src =
     "https://tailwindcss.com/_next/static/media/classic-utility-jacket.0f108046e151c8576017eaf383406fe6.jpg"
   return (
-    <div className="tw-rounded-md tw-shadow-md tw-m-2 tw-pb-4 tw-max-w-md tw-mx-auto">
+    <div className="tw-rounded-md tw-shadow-md tw-m-4 tw-pb-4 tw-max-w-md tw-mx-auto">
       <div className="tw-h-52">
         <img
           src={src}
