@@ -26,7 +26,7 @@ function Workflow() {
     <section className="tw-p-0 tw-m-0">
       <div className="tw-grid tw-grid-cols-11 tw-h-full">
         {/* sidebar */}
-        <div className="tw-col-span-2 tw-bg-slate-100 tw-py-4 tw-h-full">
+        <div className="tw-col-span-11 md:tw-col-span-2 tw-bg-slate-100 tw-py-4 tw-h-full">
           <div className="tw-mb-6  tw-px-4">
             <img src="/workflow_logo.jpg" alt="" className="tw-w-40" />
           </div>
@@ -44,7 +44,7 @@ function Workflow() {
           </div>
         </div>
         {/* member list */}
-        <div className="tw-col-span-3 tw-pt-4">
+        <div className="tw-col-span-11 md:tw-col-span-3 tw-pt-4">
           <div className="tw-px-3">
             <h2 className="tw-text-xl tw-font-semibold tw-text-gray-800 tw-mb-1">
               Directory
@@ -130,7 +130,7 @@ function Workflow() {
           </div>
         </div>
         {/* member details */}
-        <div className="tw-col-span-6 tw-border-l tw-border-gray-300">
+        <div className="tw-col-span-11 md:tw-col-span-6 tw-border-l tw-border-gray-300">
           {/* section one */}
           <div className="tw-h-52 tw-relative">
             <img
@@ -216,6 +216,9 @@ function Workflow() {
           </div>
         </div>
       </div>
+      <p className="tw-font-semibold tw-bg-slate-200 tw-capitalize tw-text-center tw-py-1 tw-text-slate-700">
+        best viewed in desktop
+      </p>
     </section>
   )
 }
