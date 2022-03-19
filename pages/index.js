@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid"
 import { useEffect } from "react"
-import { Head } from "next/head"
+import Head from "next/head"
 
 const uniqueIds = []
 export default function Home() {
